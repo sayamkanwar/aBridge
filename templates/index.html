@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./static/animate.css">
+	<link rel="stylesheet" type="text/css" href="./static/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="wid left">
+			<div class="wid page page1">
+				<img src="./static/logo.png">
+			</div>
+
+			<div class="wid  page page2">
+
+			</div>
+		</div>
+
+		<div class="wid right">
+			<div class="buttons">
+				<div class="but but1">Text</div>
+				<div class="but but2">Speech</div>
+			</div>
+
+
+			<div class="main">
+				<div class="white animated zoomIn">
+					<div  class="mov2">
+						<span><i class="fas fa-microphone"></i></span>
+						<span><i class="fas fa-upload"></i></span>
+					</div>
+				</div>
+				<div class="str">
+					<div class="move">
+                        <span class="tran animated slideInDown" >Start Listening</span>
+                        <span class="tran animated slideInDown" >Stop Listening</span>
+                        <span class="tran3  ">Upload File</span>
+                    </div>
+				</div>
+			</div>
+
+			<div class="wh">
+				
+			</div>
+
+			<div class="inp">
+				<div class="fon">Or<br><br><br></div>
+				<div class="fon">Input Text<br><br></div>
+				<textarea id="user-text" placeholder="Enter text here"></textarea> <br>
+				<button onclick="SendData()" class="process">
+					Submit
+				</button>
+			</div>
+
+			<div class="processing">
+				Processing
+			</div>
+
+			<div class="display">
+				<!-- <div class="head">Thank you for using our product</div> -->
+				<div class="subhead">Summarized Text</div>
+				<div id="tex" class="tex">
+					
+				</div>
+                <div class="subhead">Your input</div>
+                <div id="bex" class="tex">
+                    
+                </div>
+				<div class="options">
+				 	<div class="op op1">Save as pdf</div>
+				 	<div class="op op2">Save as txt</div>
+				 	<!-- <div class="op op3" id="dd">View Full Text</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script type="text/javascript" src="./static/pro.js"></script>
+</body>
+</html>
