@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	font-family: lato;
+	font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -50,6 +50,18 @@ img{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
+}
+
+.page1 p {
+	flex-basis: 80%;
+	text-align: justify;
+	background: rgba(255,255,255,0.5);
+	padding: 2.3em;
+	line-height: 25px;
+	border-radius: 10px;
+	color: #2E3F54;
+	margin-top: -10vh;
 }
 
 .page2{
@@ -144,7 +156,6 @@ img{
 }
 
 .str{
-	font-family: lato ;
 	color: #fff;
 	font-size: 1.2vw;
 	width: 10vw;
